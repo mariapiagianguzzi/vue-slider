@@ -19,7 +19,7 @@ let app = new Vue ({
         ],
     },
     created: function(){
-        setInterval(this.prev, 3000);
+        setInterval(this.next, 3000);
         
     },
     methods: {
